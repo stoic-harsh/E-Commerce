@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+    place-content: center ;
+}
+
+.paperStyle{
+    width: 50vw; 
+    padding: 15px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center; 
+}
+
+@media screen and (max-width: 699px){
+    .paperStyle{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .paperStyle{
+        width: 95vw;
+    }
+}
